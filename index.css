@@ -1,0 +1,21 @@
+body
+{
+    font-family: 'Titillium Web', sans-serif;
+    color: hsl(0, 0%, 50%);
+    background: rgba(0, 0, 0, 0.05);
+    margin: 0;
+    padding: 20px 50px;
+}
+header
+{
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+#source
+{
+    width: 100%;
+}
+#preview
+{
+    color: black;
+}

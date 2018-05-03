@@ -1,0 +1,32 @@
+<html lang="ja">
+<head>
+    <meta charset="utf-8" />
+    <title>Math Preview</title>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css"/>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.5.1.min.js"></script>
+    <script type="text/javascript" src="preview.js"></script>
+    <script type="text/x-mathjax-config" src="mathjax.config"></script>
+</head>
+
+<body>
+    <header>Math Preview</header>
+
+    <main>
+        <article>
+            <h1>Source</h1>
+            <p>
+                <textarea id="source" name="body" cols="70" rows="10">
+\begin{equation}
+  \sin x + \cos x = \sqrt{2} \sin \left(x + \frac{\pi}{4}\right)
+\end{equation}
+</textarea>
+            </p>
+
+            <h1>Preview</h1>
+            <div id="preview"></div>
+        </article>
+    </main>
+</body>
+</html>
